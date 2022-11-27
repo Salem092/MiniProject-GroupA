@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+    fieldset{
+        width:350px;
+        border: 2px solid blueviolet;
+        background-color: rgb(222, 238, 238);
+    }
+
+    form{
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    .Year-7{
+     width:250px; height:40px
+    }
+    select{
+        width:70px; height:60px
+    }
+    .lgbutton{
+        font-size: 20px; background-color: rgb(177, 216, 138); margin-left: 20%;
+    }
+    .register{
+        font-size: 20px; margin-left: 25%; color:rgb(148, 55, 151); background-color: rgb(177, 216, 138);
+    }
+   
+ </style>
+</head>
+<body style="background-color:rgb(178, 202, 153)">   
+    <form action="Subjects.html">
+        <fieldset>
+            <legend style="text-align:center; font-size: 23px;">Log In First<small style="color: rgb(63, 26, 63);">(to enter Subjects)</small></legend>
+            <label for="name">Username:</label><br>
+            <input class="Year-7" type="text" id="name" name="name" placeholder="John Doe">
+            <br><br>
+            <label for="email">Email:  </label><br>
+            <input class="Year-7" type="email" id="email" name="email" placeholder="***********">
+            <br><br>
+            <label for="password">Password:</label><br>
+            <input class="Year-7" type="password" id="password" placeholder="..............">
+            <br><br>
+            <label for="grade">Year(or)Grade:</label>
+            <select id="grade" name="grade" size="3" multiple>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                </select>
+            <br>
+            <lable style="margin-left:38%;"><a href="/action_page.php">forgot password</a></lable><br><br>
+            
+         <input class="lgbutton" type="submit" value="LOGIN" >    
+         <button class="register" type="button" >Register</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
